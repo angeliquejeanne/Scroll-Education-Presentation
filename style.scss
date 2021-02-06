@@ -126,7 +126,17 @@
   .site-container {
     section {
       &:nth-child(1) {
-        background-color: white;
+        //@extend: white;
+        background: url(../img/Laptop-Coffee-Flower.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .wrap {
+            background-color: rgba(255, 250, 250, 0.5);
+            width: 700px;
+            height: 330px;
+            border-radius: 25px;
+        }
       }
   
       &:nth-child(2), &:nth-child(4), &:nth-child(6), &:nth-child(8), &:nth-child(10) {
